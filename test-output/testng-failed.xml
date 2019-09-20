@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.qa.dd.ExtentListeners.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" name="Test1(failed)" parallel="tests">
+    <classes>
+      <class name="com.qa.dd.testcases.InvalidLoginTest">
+        <methods>
+          <include name="invalidLoginTest" invocation-numbers="2 0 1"/>
+          <include name="setUpFramework"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.dd.testcases.InvalidLoginTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)" parallel="tests">
+    <classes>
+      <class name="com.qa.dd.testcases.LoginTest">
+        <methods>
+          <include name="setUpFramework"/>
+          <include name="loginTest" invocation-numbers="1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.dd.testcases.LoginTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

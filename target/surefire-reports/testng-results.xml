@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1560" started-at="2019-09-18T07:26:50Z" finished-at="2019-09-18T07:26:52Z">
+    <groups>
+    </groups>
+    <test name="Test2" duration-ms="1560" started-at="2019-09-18T07:26:50Z" finished-at="2019-09-18T07:26:52Z">
+      <class name="com.qa.dd.testcases.InvalidLogin">
+        <test-method status="PASS" signature="setUpFramework()[pri:0, instance:com.qa.dd.testcases.InvalidLogin@762ef0ea]" name="setUpFramework" is-config="true" duration-ms="49" started-at="2019-09-18T07:26:50Z" finished-at="2019-09-18T07:26:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpFramework -->
+      </class> <!-- com.qa.dd.testcases.InvalidLogin -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
