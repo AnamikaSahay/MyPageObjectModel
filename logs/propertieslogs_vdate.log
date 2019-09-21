@@ -125,3 +125,18 @@
 [INFO ] 2019-09-20 14:39:29.554 [TestNG-PoolService-0] BaseTest - Inside Login Test
 [INFO ] 2019-09-20 14:39:29.566 [TestNG-PoolService-1] BaseTest - Inside Login Test
 [INFO ] 2019-09-20 14:39:29.577 [TestNG-PoolService-2] BaseTest - Inside InvalidLogin Test
+[INFO ] 2019-09-20 17:52:02.589 [main] BaseTest - Config properties file loaded
+[INFO ] 2019-09-20 17:52:05.096 [TestNG-PoolService-2] BaseTest - Inside Login Test
+[INFO ] 2019-09-20 17:52:05.168 [TestNG-PoolService-0] BaseTest - Inside Login Test
+[INFO ] 2019-09-20 17:52:05.234 [TestNG-PoolService-0] BaseTest - Inside InvalidLogin Test
+[INFO ] 2019-09-20 17:52:05.275 [TestNG-PoolService-1] BaseTest - Inside InvalidLogin Test
+[INFO ] 2019-09-20 17:52:05.360 [TestNG-PoolService-2] BaseTest - Inside InvalidLogin Test
+[INFO ] 2019-09-20 17:52:05.383 [TestNG-PoolService-1] BaseTest - Inside Login Test
+[INFO ] 2019-09-20 18:56:26.710 [main] BaseTest - Config properties file loaded
+[INFO ] 2019-09-20 18:56:28.629 [TestNG-PoolService-2] BaseTest - Inside InvalidLogin Test
+[INFO ] 2019-09-20 18:56:28.669 [TestNG-PoolService-0] BaseTest - Inside InvalidLogin Test
+[INFO ] 2019-09-20 18:56:28.730 [TestNG-PoolService-1] BaseTest - Inside InvalidLogin Test
+[INFO ] 2019-09-20 19:00:23.741 [main] BaseTest - Config properties file loaded
+[INFO ] 2019-09-20 19:00:25.706 [TestNG-PoolService-1] BaseTest - Inside InvalidLogin Test
+[INFO ] 2019-09-20 19:00:25.725 [TestNG-PoolService-0] BaseTest - Inside InvalidLogin Test
+[INFO ] 2019-09-20 19:00:25.769 [TestNG-PoolService-2] BaseTest - Inside InvalidLogin Test

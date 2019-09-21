@@ -11,9 +11,4 @@
 			<class name="com.qa.dd.testcases.InvalidLoginTest" />
 		</classes>
 	</test> <!-- Test -->	
-		<test name="Test2">
-		<classes>
-			<class name="com.qa.dd.testcases.LoginTest" />
-		</classes>
-	</test> <!-- Test -->		
 </suite> <!-- Suite -->

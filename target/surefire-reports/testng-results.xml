@@ -1,17 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="1560" started-at="2019-09-18T07:26:50Z" finished-at="2019-09-18T07:26:52Z">
+  <suite name="Suite" duration-ms="37969" started-at="2019-09-21T02:00:23Z" finished-at="2019-09-21T02:01:01Z">
     <groups>
     </groups>
-    <test name="Test2" duration-ms="1560" started-at="2019-09-18T07:26:50Z" finished-at="2019-09-18T07:26:52Z">
-      <class name="com.qa.dd.testcases.InvalidLogin">
-        <test-method status="PASS" signature="setUpFramework()[pri:0, instance:com.qa.dd.testcases.InvalidLogin@762ef0ea]" name="setUpFramework" is-config="true" duration-ms="49" started-at="2019-09-18T07:26:50Z" finished-at="2019-09-18T07:26:50Z">
+    <test name="Test1" duration-ms="37969" started-at="2019-09-21T02:00:23Z" finished-at="2019-09-21T02:01:01Z">
+      <class name="com.qa.dd.testcases.InvalidLoginTest">
+        <test-method status="PASS" signature="setUpFramework()[pri:0, instance:com.qa.dd.testcases.InvalidLoginTest@36b4fe2a]" name="setUpFramework" is-config="true" duration-ms="31" started-at="2019-09-21T02:00:23Z" finished-at="2019-09-21T02:00:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpFramework -->
-      </class> <!-- com.qa.dd.testcases.InvalidLogin -->
-    </test> <!-- Test2 -->
+        <test-method status="PASS" signature="invalidLoginTest(java.util.Hashtable)[pri:0, instance:com.qa.dd.testcases.InvalidLoginTest@36b4fe2a]" name="invalidLoginTest" duration-ms="29651" started-at="2019-09-21T02:00:25Z" data-provider="masterDP" finished-at="2019-09-21T02:00:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=firefox, password=cdcdac, Runmode=Y, username=AAAAAATTTT}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method status="PASS" signature="invalidLoginTest(java.util.Hashtable)[pri:0, instance:com.qa.dd.testcases.InvalidLoginTest@36b4fe2a]" name="invalidLoginTest" duration-ms="19765" started-at="2019-09-21T02:00:25Z" data-provider="masterDP" finished-at="2019-09-21T02:00:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=chrome, password=atfdc, Runmode=Y, username=AAAAAAAAA}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method status="PASS" signature="invalidLoginTest(java.util.Hashtable)[pri:0, instance:com.qa.dd.testcases.InvalidLoginTest@36b4fe2a]" name="invalidLoginTest" duration-ms="17870" started-at="2019-09-21T02:00:25Z" data-provider="masterDP" finished-at="2019-09-21T02:00:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=ie, password=cdcdac, Runmode=Y, username=AAAAAATTTT}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.dd.testcases.InvalidLoginTest@36b4fe2a]" name="tearDown" is-config="true" duration-ms="651" started-at="2019-09-21T02:00:43Z" finished-at="2019-09-21T02:00:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.dd.testcases.InvalidLoginTest@36b4fe2a]" name="tearDown" is-config="true" duration-ms="8281" started-at="2019-09-21T02:00:45Z" finished-at="2019-09-21T02:00:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.dd.testcases.InvalidLoginTest@36b4fe2a]" name="tearDown" is-config="true" duration-ms="6707" started-at="2019-09-21T02:00:55Z" finished-at="2019-09-21T02:01:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.dd.testcases.InvalidLoginTest -->
+    </test> <!-- Test1 -->
   </suite> <!-- Suite -->
 </testng-results>
